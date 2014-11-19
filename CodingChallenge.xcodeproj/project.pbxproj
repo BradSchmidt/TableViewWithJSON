@@ -19,6 +19,10 @@
 		A2220E461A19C2F700634E6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2220E2E1A19C2F700634E6F /* UIKit.framework */; };
 		A2220E4E1A19C2F700634E6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2220E4C1A19C2F700634E6F /* InfoPlist.strings */; };
 		A2220E501A19C2F700634E6F /* CodingChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2220E4F1A19C2F700634E6F /* CodingChallengeTests.m */; };
+		A2220E5F1A19C38200634E6F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2220E5D1A19C38200634E6F /* HomeViewController.m */; };
+		A2220E601A19C38200634E6F /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2220E5E1A19C38200634E6F /* HomeViewController.xib */; };
+		A2220E641A19D80C00634E6F /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A2220E621A19D80C00634E6F /* TableViewCell.m */; };
+		A2220E651A19D80C00634E6F /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2220E631A19D80C00634E6F /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		A2220E4B1A19C2F700634E6F /* CodingChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CodingChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		A2220E4D1A19C2F700634E6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A2220E4F1A19C2F700634E6F /* CodingChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodingChallengeTests.m; sourceTree = "<group>"; };
+		A2220E5C1A19C38200634E6F /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		A2220E5D1A19C38200634E6F /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		A2220E5E1A19C38200634E6F /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		A2220E611A19D80C00634E6F /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		A2220E621A19D80C00634E6F /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		A2220E631A19D80C00634E6F /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +119,12 @@
 			children = (
 				A2220E391A19C2F700634E6F /* AppDelegate.h */,
 				A2220E3A1A19C2F700634E6F /* AppDelegate.m */,
+				A2220E5C1A19C38200634E6F /* HomeViewController.h */,
+				A2220E5D1A19C38200634E6F /* HomeViewController.m */,
+				A2220E5E1A19C38200634E6F /* HomeViewController.xib */,
+				A2220E611A19D80C00634E6F /* TableViewCell.h */,
+				A2220E621A19D80C00634E6F /* TableViewCell.m */,
+				A2220E631A19D80C00634E6F /* TableViewCell.xib */,
 				A2220E3C1A19C2F700634E6F /* Images.xcassets */,
 				A2220E311A19C2F700634E6F /* Supporting Files */,
 			);
@@ -220,7 +236,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2220E351A19C2F700634E6F /* InfoPlist.strings in Resources */,
+				A2220E651A19D80C00634E6F /* TableViewCell.xib in Resources */,
 				A2220E3D1A19C2F700634E6F /* Images.xcassets in Resources */,
+				A2220E601A19C38200634E6F /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +258,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2220E3B1A19C2F700634E6F /* AppDelegate.m in Sources */,
+				A2220E641A19D80C00634E6F /* TableViewCell.m in Sources */,
 				A2220E371A19C2F700634E6F /* main.m in Sources */,
+				A2220E5F1A19C38200634E6F /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +457,7 @@
 				A2220E551A19C2F700634E6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2220E561A19C2F700634E6F /* Build configuration list for PBXNativeTarget "CodingChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +466,7 @@
 				A2220E581A19C2F700634E6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
